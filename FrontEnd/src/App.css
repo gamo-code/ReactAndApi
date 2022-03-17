@@ -1,0 +1,35 @@
+body, html {
+  padding: 0;
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 50rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5em 1em;
+  text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+th {
+  text-align: left;
+}
+
+td:last-child {
+  text-align: left;
+}
+
+thead tr {
+  border-bottom: 2px solid #888;
+}
+
+tr {
+  border-bottom: 1px solid #aaa;
+}
